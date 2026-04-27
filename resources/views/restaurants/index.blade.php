@@ -8,7 +8,6 @@
     <div class="col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm border-0 restaurant-card">
             <div class="card-body p-4 d-flex align-items-center">
-            
                 <img src="{{ asset('img/restaurants/' . $restaurant->id . '.png') }}" class="rounded-circle me-3 border" style="width: 70px; height: 70px; object-fit: cover;" alt="{{ $restaurant->name }}" onerror="this.src='https://via.placeholder.com/70?text=Resto'">
 
                 <div>
