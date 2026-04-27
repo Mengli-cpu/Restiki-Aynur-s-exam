@@ -2,7 +2,6 @@
 
 @section('main-content')
 <h2 class="fw-bold mb-4"><i class="bi bi-shop me-2 text-danger"></i> Our Restaurants</h2>
-
 <div class="row g-4">
     @foreach($restaurants as $restaurant)
     <div class="col-md-6 col-lg-4">
